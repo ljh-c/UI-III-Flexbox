@@ -27,12 +27,12 @@ header {
 }
 
 section {
-	background-color: gray;
+	/* background-color: gray; */
 	/* padding: 1.5% 0; */
 }
 
 .navigation {
-	background-color: pink;
+	/* background-color: pink; */
 	padding: 1.5% 0;
 	display: flex;
 	justify-content: space-between;
@@ -56,21 +56,15 @@ nav a {
 }
 
 .logo {
-	background-color: goldenrod;
+	
 }
 
 .splash {
-	background-color: aqua;
 	padding-top: 3.3%;
 	padding-bottom: 5.5%;
 	display: flex;
 	justify-content: space-between;
 	width: 61.5%;
-    /* padding-top: 5%;
-    padding-bottom: 10%;
-    width: 876px;
-    margin: 0 auto;
-    position: relative; */
 }
 
 .title {
@@ -114,16 +108,38 @@ h1 {
 
 .triplet {
     margin: 2.5% 0.25%;
-    background-color: teal;
 }
 
 .bottom {
-    /* margin: 3% 0; */
-	padding-left: 19%;
 	background-color: red;
+	width: 61.5%;
 }
 
-
 footer {
-    text-align: center;
+	text-align: center;
+	font-size: 13px;
+}
+
+.subtitle {
+	background-color: pink;
+	text-align: left;
+	width: 61.5%;
+	padding: 0.25% 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.services {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: space-around;
+}
+
+.box {
+	margin: 2.5% 0.25%;
+	width: 45%;
+	background-color: teal;
+	border: 1px solid black;
 }

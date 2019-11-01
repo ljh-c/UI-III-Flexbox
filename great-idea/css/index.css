@@ -1,8 +1,6 @@
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	/* margin: 0;
-	padding: 0; */
 	max-width: 100%;
 }
 
@@ -20,29 +18,20 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
-	background-color: pink;
 	display: flex;
 	flex-direction: column; 
 	align-items: center;
 }
 
-section {
-	/* background-color: gray; */
-	/* padding: 1.5% 0; */
-}
-
 .navigation {
-	/* background-color: pink; */
 	padding: 1.5% 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	width: 61.5%;
-	/* width: 880px; */
 }
 
 .navigation nav {
-	background-color: green;
 	width: 70%;
 	display: flex;
 	justify-content: space-between;
@@ -55,10 +44,6 @@ nav a {
 	font-size: 13.5px;
 }
 
-.logo {
-	
-}
-
 .splash {
 	padding-top: 3.3%;
 	padding-bottom: 5.5%;
@@ -68,7 +53,6 @@ nav a {
 }
 
 .title {
-	background-color: pink;
 	text-align: center;
 	width: 100%;
 }
@@ -121,7 +105,6 @@ h1 {
 }
 
 .bottom {
-	background-color: red;
 	width: 61.5%;
 }
 
@@ -131,7 +114,6 @@ footer {
 }
 
 .subtitle {
-	background-color: pink;
 	text-align: left;
 	width: 61.5%;
 	padding: 0.25% 0;
@@ -160,7 +142,6 @@ footer {
 	padding-bottom: 5.5%;
 	display: flex;
 	width: 61.5%;
-	background-color: purple;
 }
 
 .factsBox {
